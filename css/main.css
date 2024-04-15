@@ -101,3 +101,10 @@ nav .logo{
     border: 1px solid var(--thm-base);
     color: var(--thm-base);
 }
+/*=================================================*/
+.content_proyectos h3{
+    color: var(--thm-base);
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
