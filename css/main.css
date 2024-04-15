@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    color: var(--thm-black);
+}
+body{
+    background-image: url('../img/fondo_gardient.png');
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+:root {
+	--thm-font: 'Poppins', sans-serif;
+	--thm-font1: 'Abril Fatface', cursive; 
+	--thm-base: #C0392B;;
+	--thm-color: #0049a9;
+	--thm-celeste : #00c3f4;
+	--thm-black: #374151;
+	--thm-heading:#31303E;
+	--thm-white: #ffffff;
+	--thm-ase: #dff2d4;
+	--thm-gray: #8e8e8e;
+	--thm-f6: #F1F8FF;
+	--thm-fb: #f6f6f6;
+	--thm-p: #686868;
+	--thm-line:linear-gradient(45deg,var(--thm-base),var(--thm-color));
+	--thm-skew:linear-gradient(-45deg,var(--thm-base) 49%,var(--thm-color) 50%);
+	/* preloader used */
+	--hue: 223;
+    --bg: hsl(var(--hue), 10%, 90%);
+    --fg: hsl(var(--hue), 10%, 10%);
+    --primary: hsl(var(--hue), 90%, 55%);
+    --primary-l: hsl(var(--hue), 90%, 65%);
+    --primary-d: hsl(var(--hue), 90%, 45%);
+    --white: hsl(var(--hue), 10%, 100%);
+    --white-d: hsl(var(--hue), 10%, 45%);
+}
+.container_nav{
+    max-width: 1100px;
+    width: 95%;
+    margin: 0 auto;
+}
+.container{
+    max-width: 1100px;
+    width: 95%;
+    margin: 20px auto;
+}
+nav{
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+nav .logo{
+    font-size: 20px;
+    font-weight: 900;
+}
+/* ===================================== */
+.content_sobre_mi{
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.text_sobre_mi{
+    width: 60%;
+}
+.img_sobre_mi{
+    width: 30%;
+}
+.text_sobre_mi h3{
+    color: var(--thm-base);
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.text_sobre_mi p{
+    font-size: 17px;
+    text-align: justify;
+}
+.text_sobre_mi b{
+    color: var(--thm-base);
+}
+/*===========================================*/
+.content_btn_redes{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.content_btn_redes a{
+    text-decoration: none;
+    border: 1px solid #566573;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #566573;
+    transition: all 0.3s;
+}
+.content_btn_redes a:hover{
+    border: 1px solid var(--thm-base);
+    color: var(--thm-base);
+}
