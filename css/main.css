@@ -37,12 +37,12 @@ body{
     --white-d: hsl(var(--hue), 10%, 45%);
 }
 .container_nav{
-    max-width: 1100px;
+    max-width: 900px;
     width: 95%;
     margin: 0 auto;
 }
 .container{
-    max-width: 1100px;
+    max-width: 900px;
     width: 95%;
     margin: 20px auto;
 }
@@ -107,4 +107,54 @@ nav .logo{
     font-size: 30px;
     font-weight: 900;
     padding-bottom: 20px;
+}
+/*==================== CONTENT PROYECTOS =============================*/
+.flex_proyectos{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box_caja_proyect{
+    width: 43%;
+    margin: 10px 0px;
+    padding: 20px;
+    border: 1px solid var(--thm-base);
+    border-radius: 10px;
+}
+.content_icon{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.content_icon a >i{
+    font-size: 25px;
+    color: var(--thm-base);
+}
+.content_text h4{
+    color: var(--thm-base);
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+.content_text p{
+    margin-top: 10px;
+    text-align: justify;
+}
+.content_text img{
+    width: 100%;
+}
+.content_languajes{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.content_languajes span{
+    padding: 1px 10px;
+    margin: 5px 0px;
+    border: 1px solid var(--thm-base);
+    border-radius: 10px;
+    color: var(--thm-base);
 }
